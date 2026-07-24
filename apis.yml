@@ -1,8 +1,15 @@
 aid: calibrate-ventures
 name: Calibrate Ventures
-description: 'Calibrate Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Calibrate Ventures is a Pasadena, California venture capital firm backing
+  visionary technical founders scaling deep tech to transform industries such as
+  transportation and logistics, food and agriculture, healthcare, manufacturing,
+  security, and warehousing. The firm invests in AI, computer vision, machine
+  learning, robotics, and automation startups, partnering with founders to turn a
+  technical breakthrough into scalable commercial advantage and drawing on decades
+  of combined investment and company-building experience. This profile was surfaced
+  as a portfolio-adjacent company in the API Evangelist network and enriched from
+  the firm's public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/calibrate-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://a.storyblok.com/f/161387/1600x1425/2f5a483da3/calibrate-og.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Venture Capital
+- Deep Tech
+- Artificial Intelligence
+- Robotics
+- Automation
+- Machine Learning
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/calibrate-ventures-domain-security.yml
 - type: Website
   url: https://www.calibratevc.com
+- type: Blog
+  url: https://www.calibratevc.com/blog
+- type: Portfolio
+  url: https://www.calibratevc.com/portfolio
+- type: Team
+  url: https://www.calibratevc.com/team
+- type: Contact
+  url: https://www.calibratevc.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/calibrate-ventures/
+- type: Twitter
+  url: https://twitter.com/calibratevc
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
