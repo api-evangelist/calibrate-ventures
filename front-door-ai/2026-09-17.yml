@@ -1,0 +1,27 @@
+# Front Door AI Index — calibrate-ventures — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: calibrate-ventures
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.calibratevc.com
+  final_host: www.calibratevc.com
+  ownership: own
+  owner: calibrate-ventures
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 11.82
+  words: 423
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 4
+    automation: 2
+    machine learning: 1
