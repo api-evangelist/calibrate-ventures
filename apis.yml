@@ -50,8 +50,8 @@ tags:
 - Artificial Intelligence
 - Robotics
 - Automation
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 tags_raw:
 - Company
 - Venture Capital
@@ -61,6 +61,8 @@ tags_raw:
 - Automation
 - Machine Learning
 - Computer Vision
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
